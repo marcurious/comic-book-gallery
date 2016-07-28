@@ -1,17 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 
 namespace ComicBookGallery2.Controllers
 {
     public class ComicBooksGalleryController : Controller
     {
-        public string Detail()
+
+        /* 
+         * ContentResult
+         * RedirectResult
+         * Redirect
+         */
+
+        public ActionResult Default()
         {
-            return "Hello!";
+            return View("DefaultView");
         }
     }
 }
