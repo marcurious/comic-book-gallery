@@ -111,6 +111,7 @@
     </Compile>
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\ComicBook.cs" />
+    <Compile Include="Models\ComicBookRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -118,12 +119,13 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="packages.config" />
-    <Content Include="Views\ComicBooksGallery\Default.cshtml" />
+    <Content Include="Views\ComicBooksGallery\Detail.cshtml" />
     <Content Include="Fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\ComicBooksGallery\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

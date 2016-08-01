@@ -10,5 +10,7 @@
             Name = name;
             Role = role;
         }
+
+        public Artist() { }
     }
 }
